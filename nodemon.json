@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGODB_BASE_URL": "localhost",
+    "MONGODB_PORT": "27017",
+    "MONGODB_CLUSTER_NAME": "restMongo",
+    "NODEJS_PORT": 8081
+  }
+}
