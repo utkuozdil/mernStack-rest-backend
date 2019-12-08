@@ -10,11 +10,12 @@ The main folders of this project:
 
 Model: Simple data models
 Middleware: The middleware that checks the authorization and authentication with JWT.
-Graphql: It includes schema file and resolver file. In schema file, types and grahql queries are defined. The methods that are defined in resolver file are implemented in resolver file. We can say in GraphQL API, schemas are used instead of routes and resolvers are used instead of controllers.
+Route: It provides routes with validation.
+Controller: It provides executing user operation persisting to the MongoDB.
 
-I use Mongoose as ODM. It has great features that makes communication easier between Mongo and NodeJS. I use async/await features in all  necessary promise parts(all db operations). Lastly, I use Express for all the server setup.
+I use Mongoose as ODM. It has great features that makes communication easier between Mongo and NodeJS. I use async/await features in all  necessary promise parts(all db operations). Lastly, I use Express for all the server setup and routing operations.
 
-This project uses GrahpQL API, so it has schema and resolver. If you check Rest version of this project you can see the difference in the project structure.
+This project uses Rest API, so it has routes and controller. If you check GraphQL version of this project you can see the difference in the project structure.
 
 ### Possible Improvements
 
